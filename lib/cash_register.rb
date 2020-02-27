@@ -15,7 +15,6 @@ class CashRegister
         self.total += price * count
         count.times { self.items << item }
         self.last << price * count
-        binding.pry
     end
 
     def apply_discount
